@@ -17,6 +17,8 @@ import singleDogRoutes from './routes/single-dog.js'
 import listRoutes from './routes/categories.js'
 import colorRoutes from './routes/color.js'
 import imagesRoute from './routes/images.js'
+// For development purposes only
+// import devRoutes from './routes/development.js'
 
 dotenv.config()
 const app = express()
