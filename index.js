@@ -29,7 +29,7 @@ app.set('trust proxy', 1)
 app.use(
   ratelimiter({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 250, // Limit each IP to 250 request per windowMs
+    max: 1000, // Limit each IP to 250 request per windowMs
   })
 )
 app.use(helmet())
