@@ -48,7 +48,8 @@ app.use('/categories', listRoutes)
 app.use('/colors', colorRoutes)
 app.use('/images', imagesRoute)
 app.use('/image', express.static('image'))
-app.use('/development', devRoutes)
+// For development purposes and is not included in live
+// app.use('/development', devRoutes)
 
 app.use(notFound)
 app.use(errorHandler)
