@@ -5,7 +5,6 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import helmet from 'helmet'
 import xss from 'xss-clean'
-import ratelimiter from 'express-rate-limit'
 
 // Middlewares
 import notFound from './middleware/notFound.js'
@@ -25,13 +24,6 @@ const app = express()
 // Initial middleware
 app.use(express.json())
 app.set('trust proxy', 1)
-// Limit requests
-app.use(
-  ratelimiter({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 1000, // Limit each IP to 250 request per windowMs
-  })
-)
 app.use(helmet())
 app.use(cors())
 app.use(xss())
