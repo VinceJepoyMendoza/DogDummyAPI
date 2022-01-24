@@ -1,4 +1,4 @@
 /node_modules
 /routes/development.js
 /controller/devRoutes.js
-# /.env
+/.env
