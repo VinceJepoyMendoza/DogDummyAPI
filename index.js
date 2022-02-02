@@ -3,7 +3,6 @@ import express from 'express'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import cors from 'cors'
-import helmet from 'helmet'
 import xss from 'xss-clean'
 
 // Middlewares
@@ -24,7 +23,6 @@ const app = express()
 // Initial middleware
 app.use(express.json())
 app.set('trust proxy', 1)
-app.use(helmet({ frameguard: false }))
 app.use(cors())
 app.use(xss())
 
