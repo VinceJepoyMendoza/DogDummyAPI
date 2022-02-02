@@ -24,7 +24,7 @@ const app = express()
 // Initial middleware
 app.use(express.json())
 app.set('trust proxy', 1)
-app.use(helmet())
+app.use(helmet({ frameguard: false }))
 app.use(cors())
 app.use(xss())
 
