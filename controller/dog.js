@@ -86,4 +86,4 @@ export const singleDogSchema = (dog, url) => {
 // Transform DB url to live image url
 // Append url to image and replace '\' with '/'
 export const transformImgUrl = (url, image) =>
-  `${url}/${image.split('\\').join('/')}`
+  `https://${url}/${image.split('\\').join('/')}`
