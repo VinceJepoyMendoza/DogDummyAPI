@@ -31,8 +31,6 @@ fetch('https://dogdummyapi.herokuapp.com/dogs')
   .then((json) => console.log(json))
 ```
 
-<br>
-
 ### **Search dogs by name**
 
 ```js
@@ -41,7 +39,7 @@ fetch('https://dogdummyapi.herokuapp.com/dogs/filter?search=te')
   .then((json) => console.log(json))
 ```
 
-Note: This will return dogs that include "te" in their name. Filter route will only work if given atleast 1 query. Check [All Queries](#all-queries)<br><br>
+Note: This will return dogs that include "te" in their name. Filter route will only work if given atleast 1 query. Check [All Queries](#all-queries)<br>
 
 ### **Get all categories**
 
@@ -51,8 +49,6 @@ fetch('https://dogdummyapi.herokuapp.com/categories')
   .then((json) => console.log(json))
 ```
 
-<br>
-
 ### **Get all colors**
 
 ```js
@@ -61,8 +57,6 @@ fetch('https://dogdummyapi.herokuapp.com/colors')
   .then((json) => console.log(json))
 ```
 
-<br>
-
 ### **Get all images**
 
 ```js
@@ -70,8 +64,6 @@ fetch('https://dogdummyapi.herokuapp.com/images')
   .then((res) => res.json())
   .then((json) => console.log(json))
 ```
-
-<br>
 
 ## All available routes
 
@@ -140,7 +132,7 @@ All filter routes have all the queries except the **/colors/filter?** route
 
 ## **Todo:**
 
-- Add About page
+- Add more dogs
 - Add "trivia" property for all dogs
 
 <br>
