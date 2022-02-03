@@ -79,7 +79,8 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 
 - **/dogs** (get all dogs)
   - ?sort=asc|desc
-- **/dogs/filter?** (get all filtered dogs. this route includes all available queries. see [All Queries](#all-queries))
+- **/dogs/filter?** (get all filtered dogs)
+  - this route includes all available queries. see [All Queries](#all-queries)
 
 **Dog:**
 
@@ -91,7 +92,8 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 - **/categories** (get all categories)
   - ?sort=asc|desc
 - **/categories/hound** (get all dogs with the specific category)
-- **/categories/hound/filter?** (get all filtered dogs with the specific category. this route includes all available queries. see [All Queries](#all-queries))
+- **/categories/hound/filter?** (get all filtered dogs with the specific category)
+  - this route includes all available queries. see [All Queries](#all-queries)
 
 **Color**
 
@@ -104,16 +106,16 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 
 **Images**
 
-- **/images** (get all of dog's images)
+- **/images** (get all of dog's image)
 
 **Image**
 
-- **/image/Border_Collies.jpg** (get dog's image)
+- **/image/Border_Collies.jpg** (get single dog's image)
   <br><br>
 
 ## All queries
 
-All filter routes have all the queries except the **/colors/filter?**
+All filter routes have all the queries except the **/colors/filter?** route
 
 <!-- Query Table -->
 
