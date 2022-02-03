@@ -107,7 +107,7 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 
 ## All queries
 
-All filter routes have all the queries except the **/colors/filter?** route
+All filter routes have all the queries except the **/colors/filter?** route. queries can stack. check individual route for their available queries
 
 <!-- Query Table -->
 
