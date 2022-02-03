@@ -8,13 +8,9 @@ You can visits [DogDummyAPI](https://dogdummyapi.netlify.app/get-started) for mo
 
 ## Why
 
----
-
 **Free** and **simple** rest API made for **beginners** in mind. [DogDummyAPI](https://dogdummyapi.netlify.app/get-started) provides you with beginner friendly rest API with its varieties of properties that covers most of data types including Strings, Number, Array, Object and even Nested Object.<br><br>
 
 ## Main Routes
-
----
 
 There are 4 main routes presents as of now:
 
@@ -24,8 +20,6 @@ There are 4 main routes presents as of now:
 - Images: [https://dogdummyapi.herokuapp.com/images](https://dogdummyapi.herokuapp.com/images)<br><br>
 
 ## How to
-
----
 
 [DogDummyAPI](https://dogdummyapi.netlify.app/get-started) only accept **GET** requests and filter routes only works if given atleast 1 query. Check [All Queries](#all-queries) for available queries.
 
@@ -81,8 +75,6 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 
 ## All available routes
 
----
-
 **Dogs:**
 
 - **/dogs** (get all dogs)
@@ -121,8 +113,6 @@ fetch('https://dogdummyapi.herokuapp.com/images')
 
 ## All queries
 
----
-
 All filter routes have all the queries except the **/colors/filter?**
 
 <!-- Query Table -->
@@ -147,8 +137,6 @@ All filter routes have all the queries except the **/colors/filter?**
 <br>
 
 ## **Todo:**
-
----
 
 - Add About page
 - Add "trivia" property for all dogs
