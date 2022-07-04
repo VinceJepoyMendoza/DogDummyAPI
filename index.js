@@ -22,6 +22,8 @@ dotenv.config()
 const app = express()
 // Initial middleware
 app.use(express.json())
+// built-in middleware to handle urlencoded form data
+app.use(express.urlencoded({ extended: false }));
 app.set('trust proxy', 1)
 app.use(cors())
 app.use(xss())
